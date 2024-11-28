@@ -20,8 +20,15 @@ console.table(transformToArray)
 const lastName = transformToArray[transformToArray.length -1]
 console.log(lastName)
 
-
-
-
 console.log('Olá',transformToArray [0])
 
+///
+function Firstname(fullname){
+    if (fullname.length <= 0){
+        return console.error('Coloque um nome valido')
+    }
+
+    let name = fullname.split(' ')[0]
+    return `olá, ${name}, seja bem vindo!`
+}
+console.log(Firstname('mauricio de Souza'))
