@@ -1,6 +1,6 @@
 // metodo lenght length conta caracter
 
-const fullname = 'Lucas do Espirito Santos'
+const fullname = 'Diego Sarti Araujo Viana'
 
 console.log(fullname.length, 'conta caracteres')
 
@@ -19,3 +19,9 @@ console.table(transformToArray)
 
 const lastName = transformToArray[transformToArray.length -1]
 console.log(lastName)
+
+
+
+
+console.log('Olá',transformToArray [0])
+
